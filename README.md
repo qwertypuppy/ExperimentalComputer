@@ -1,5 +1,5 @@
 # ExperimentalComputer
-Working on this during break at school. Has a few issues, but no bugs yet. Any help would be awesome!
+Working on this during free time. Has a few issues, but no bugs yet. Any help would be awesome!
 
 Some documentation:
 
