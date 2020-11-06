@@ -64,17 +64,17 @@ def unequal(bit1,bit2,e):
   global q3
   if bit1 == q1:
     if bit2 == q2:
-      q3 = e*(1-q1*q2)
+      q3 = e*q1*q2
     elif bit2 == q3:
-      q2 = e*(1-q1*q3)
+      q2 = e*q1*q3
   elif bit1 == q2:
     if bit2 == q1:
-      q3 = e*(1-q1*q2)
+      q3 = e*q1*q2
     elif bit2 == q3:
-      q1 = e*(1-q2*q3)
+      q1 = e*q2*q3
   elif bit1 == q3:
     if bit2 == q1:
-      q2=e*(1-q1*q3)
+      q2=e*q1*q3
     elif bit2 == q2:
-      q1=e*(1-q2*q3)
+      q1==e*q2*q3
 print(round(q1,4),round(q2,4),round(q3,4))
