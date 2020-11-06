@@ -9,6 +9,8 @@ calculationamount - amount of calculations
 
 Bit1 is just the bit being operated on
 
+Divider = chance of bit being 0/chance of bit being 1
+
 Gates:
 
 setsTo - Sets bit1 to selected position (ex: setsTo(q1,0))
